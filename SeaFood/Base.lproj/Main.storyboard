@@ -21,13 +21,37 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="brl-AF-HH8">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Vpb-KO-OS0">
+                                <rect key="frame" x="148" y="526" width="78" height="46"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kqy-4d-ipL">
+                                        <rect key="frame" x="0.0" y="0.0" width="78" height="46"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tEY-Mo-czs">
+                                                <rect key="frame" x="0.0" y="0.0" width="78" height="46"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzC-K8-fc1">
+                                                        <rect key="frame" x="0.0" y="0.0" width="78" height="46"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                        <state key="normal" title="Share!"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="brl-AF-HH8" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Fry-qa-Ktl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vpb-KO-OS0" secondAttribute="trailing" constant="149" id="Gv3-ge-YpN"/>
                             <constraint firstItem="brl-AF-HH8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="His-Lg-5H4"/>
                             <constraint firstItem="brl-AF-HH8" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="JKM-R0-w9k"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Vpb-KO-OS0" secondAttribute="bottom" constant="95" id="Yg1-E6-hb8"/>
+                            <constraint firstItem="Vpb-KO-OS0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="462" id="eWw-Ob-d0a"/>
                             <constraint firstItem="brl-AF-HH8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mtV-Mw-39z"/>
+                            <constraint firstItem="Vpb-KO-OS0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="148" id="tF0-Wq-Wtk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
